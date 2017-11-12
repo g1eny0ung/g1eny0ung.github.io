@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on g1eny0ung的博客</title>
+    <link>https://g1eny0ung.github.io/tags/</link>
+    <description>Recent content in Tags on g1eny0ung的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cmn-Hans</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;知识共享许可协议&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;本作品采用&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。</copyright>
+    <lastBuildDate>Sat, 13 May 2017 17:53:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://g1eny0ung.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clojure</title>
+      <link>https://g1eny0ung.github.io/tags/clojure/</link>
+      <pubDate>Sat, 13 May 2017 17:53:11 +0800</pubDate>
+      
+      <guid>https://g1eny0ung.github.io/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://g1eny0ung.github.io/tags/javascript/</link>
+      <pubDate>Tue, 13 Jun 2017 11:14:03 +0800</pubDate>
+      
+      <guid>https://g1eny0ung.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Petal</title>
+      <link>https://g1eny0ung.github.io/tags/petal/</link>
+      <pubDate>Sun, 21 May 2017 11:08:42 +0800</pubDate>
+      
+      <guid>https://g1eny0ung.github.io/tags/petal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://g1eny0ung.github.io/tags/tech/</link>
+      <pubDate>Tue, 13 Jun 2017 11:14:03 +0800</pubDate>
+      
+      <guid>https://g1eny0ung.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>年度</title>
+      <link>https://g1eny0ung.github.io/tags/%E5%B9%B4%E5%BA%A6/</link>
+      <pubDate>Fri, 30 Dec 2016 22:36:49 +0800</pubDate>
+      
+      <guid>https://g1eny0ung.github.io/tags/%E5%B9%B4%E5%BA%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生活</title>
+      <link>https://g1eny0ung.github.io/tags/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Fri, 30 Dec 2016 22:36:49 +0800</pubDate>
+      
+      <guid>https://g1eny0ung.github.io/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
