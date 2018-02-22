@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://g1eny0ung.github.io/post/%E7%99%BD%E9%A9%AC/</loc>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://g1eny0ung.github.io/post/understanding-computation-%E9%98%85%E8%AF%BB%E6%9C%89%E6%84%9F/</loc>
     <lastmod>2018-01-09T14:00:11+08:00</lastmod>
   </url>
@@ -38,7 +43,7 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/</loc>
-    <lastmod>2018-01-09T14:00:11+08:00</lastmod>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -50,12 +55,24 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/post/</loc>
-    <lastmod>2018-01-09T14:00:11+08:00</lastmod>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g1eny0ung.github.io/tags/%E6%83%85%E6%84%9F/</loc>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://g1eny0ung.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2018-01-09T14:00:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://g1eny0ung.github.io/categories/%E6%9D%82%E6%83%B3/</loc>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -67,7 +84,7 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2017-12-31T23:58:15+08:00</lastmod>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -79,7 +96,7 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/categories/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2018-01-09T14:00:11+08:00</lastmod>
+    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
