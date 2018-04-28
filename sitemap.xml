@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://g1eny0ung.github.io/post/%E7%A6%85%E4%BF%AE-%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80/</loc>
+    <lastmod>2018-04-28T11:08:58+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://g1eny0ung.github.io/post/%E7%99%BD%E9%A9%AC/</loc>
     <lastmod>2018-02-22T21:19:51+08:00</lastmod>
   </url>
@@ -50,7 +55,7 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/</loc>
-    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+    <lastmod>2018-04-28T11:08:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,12 +67,12 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/post/</loc>
-    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+    <lastmod>2018-04-28T11:08:58+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://g1eny0ung.github.io/tags/%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+    <lastmod>2018-04-28T11:08:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,7 +90,13 @@
   
   <url>
     <loc>https://g1eny0ung.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2018-02-22T21:19:51+08:00</lastmod>
+    <lastmod>2018-04-28T11:08:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://g1eny0ung.github.io/categories/%E7%A6%85%E4%BF%AE/</loc>
+    <lastmod>2018-04-28T11:08:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
