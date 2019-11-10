@@ -90,7 +90,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://g1eny0ung.github.io/about/desc/</guid>
-      <description>g1eny0ung 的:heart:博客 记录一些:rainbow:生活上，技术上的事 一名大四学生:man: 马上(已经)毕业于:school:大连东软信息学院 职</description>
+      <description>&lt;p&gt;关于我&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -99,7 +99,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://g1eny0ung.github.io/about/desc3/</guid>
-      <description>如果你喜欢我的文章 or 我的项目，或者它们可以给你带来帮助。 You can buy me a coffee. ~ 我的微信赞赏码： 我的 PayPal： https://paypal.me/g1eny0ung 最好附加一下信息或者留言，方便我可</description>
+      <description>&lt;p&gt;其他&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://g1eny0ung.github.io/about/desc2/</guid>
-      <description>Petal :hibiscus: :arrow_right: 豆瓣 FM桌面版 GoalHub :golf: :arrow_right: 设置并跟踪你的 GitHub 的年贡献 (MAC OSX) hugo-theme-dream :seedling: :arrow_right: HUGO 的播客主题，当然，也是你现在看到的播客主题 Alfred-Colors-workflow :arrow_right: Alfred 插件：CSS 颜色格式转换 hex &amp;lt;=&amp;gt; rgb</description>
+      <description>&lt;p&gt;我的一些开源项目&lt;/p&gt;</description>
     </item>
     
   </channel>
