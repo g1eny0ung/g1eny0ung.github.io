@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-
-
-  tag | 技术
-
-
-
-
+编程的正确性
 </title>
 
     
@@ -21,26 +15,28 @@
 
   
   <meta name="author" content="g1eny0ung" />
-  <meta name="description" content="g1eny0ung 的生活记录～" />
+  <meta name="description" content="The Worse is Better.
+" />
 
 
 
 <meta name="generator" content="Hugo 0.70.0" />
 
-<link rel="canonical" href="https://g1eny0ung.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+<link rel="canonical" href="https://g1eny0ung.github.io/posts/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7/" />
 
 
-<meta property="og:title" content="技术" />
-<meta property="og:description" content="g1eny0ung 的生活记录～" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://g1eny0ung.github.io/tags/%E6%8A%80%E6%9C%AF/" />
-<meta property="og:updated_time" content="2020-05-07T21:41:50+08:00" />
+<meta property="og:title" content="编程的正确性" />
+<meta property="og:description" content="The Worse is Better." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://g1eny0ung.github.io/posts/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7/" />
+<meta property="article:published_time" content="2020-05-07T21:41:50+08:00" />
+<meta property="article:modified_time" content="2020-05-07T21:41:50+08:00" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="技术"/>
-<meta name="twitter:description" content="g1eny0ung 的生活记录～"/>
+<meta name="twitter:title" content="编程的正确性"/>
+<meta name="twitter:description" content="The Worse is Better."/>
 
 
 <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -87,7 +83,115 @@
 
           
 <div class="ui centered relaxed grid dream-grid">
-  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h2 class="ui header">
+          编程的正确性
+          <div class="sub header">@ g1eny0ung · Thursday, May 7, 2020 · 5 分钟阅读 · 更新于 May 7, 2020</div>
+        </h2>
+      </header>
+      <article style="margin-top: 2rem;"><p>The Worse is Better.</p>
+<p>这是一篇我很早就想去写的博客，我想借我这几年的编程经历，来阐述一个事实。当然，这不是我发现的事实，我只是站在了巨人的肩膀上而已。</p>
+<p>只是从发现这个事实，到亲身体会，再到能差不多理解大师们所说的这个事实，条件可能太苛刻了。</p>
+<p>现在决定来写，也是因为我觉得我差不多能理解了。</p>
+<p>这是一篇怀疑正确性的博客，如果你有编程经验，应该能快速地看懂，但是可能不会很快的理解，我会尽量说的比较通俗。没有编程经验的，也不妨看个乐子。</p>
+<p>这个事实就是，Worse is Better，更坏的却是更好的。</p>
+<h2 id="简单正确一致完整">简单、正确、一致、完整</h2>
+<p>在语言和软件的设计中，简单性、正确性、一致性、完整性这四个特征，是极其重要的。</p>
+<p>其中就有两大流派，分别是 MIT/Stanford Style（以下简称 MIT 流派） 和 New Jersey Style（以下简称新泽西流派，是的，就是贝尔实验室所在的那个州），
+这两个派别对这四个特征的所偏向的点是完全不同的，哪里不同呢？</p>
+<p>MIT 流派是这样认为的：正确性是最重要的，不允许出现不正确的地方。一致性也很重要，你所设计的东西不能出现不一致的情况，一致性和正确性基本同等重要。
+完整性排在这两个后面，你要说你设计的东西不完整，不能涵盖所有的情况，那不行，你不能因为想简单点而放弃完整性。最后就是简单性了，没有地位。</p>
+<p>总结起来就是什么呢，我设计的东西，一定是正确的，从它写下的那一刻，它就绝对正确，为了正确，一致，完整，这个东西多复杂都可以。</p>
+<p>而新泽西流派，差不多是将上面说的反过来：简单性是最重要的，所实现的东西，一定要简单，简洁是设计中最重要的考虑因素。
+至于完整性，尽量完整就 OK，如果为了完整性而破坏了简单性，那么就可以不涵盖所有的情况。
+最后是正确性和一致性，其实不用特别说了，完整性都得不到保证，正确和一致那就只能随缘了。</p>
+<p>你可能已经猜到了，<strong>更坏的却是更好的就是新泽西流派</strong>。</p>
+<p>但是看起来，正确性的优先级是远远要高于简单性的。我相信读到这的你会跟我一样的想法，怎么看都是 MIT 流派好呀，why。</p>
+<p>而事实就是这样的。</p>
+<p>事实就是，无论你有没有编程经验，你可能都会听说过 C 语言，还有 Unix 系统。</p>
+<p>但是 Lisp 呢？还有 Scheme 呢？没有编程经验的人基本不会知道这是什么东西，哪怕你有编程经验，没准它们也在你的知识盲区里。</p>
+<p><strong>C 语言就代表着新泽西流派，Lisp 就代表着 MIT 流派。</strong></p>
+<p>C 语言有这么烂吗？它确实就是那么烂，烂的原因如同上文所说。</p>
+<p>但是为什么这么烂的东西，能广泛的被大家使用呢，广泛到这个世界上，已经完全离不开这个东西。</p>
+<p>下面是我对 <a href="http://dreamsongs.com/RiseOfWorseIsBetter.html">http://dreamsongs.com/RiseOfWorseIsBetter.html</a> 原文的总结，作者以他的理解告诉了我为什么，感兴趣的可以看原文，不感兴趣的就听我 bb 就好了：</p>
+<p>原文讲了一个小故事，大致是这个样子的，MIT 流派的一个牛人，对一个问题产生了疑问，他想看看新泽西流派的人是如何在 Unix 系统上解决的，问题是这样的：</p>
+<p>一个程序从运行开始到成功结束，往往需要有很多步的操作，但如果在这个过程中的其中一步发生了错误的话，那么就需要保存用户在这个程序执行前的状态，来保证正确性和一致性。
+但是往往每一步的调用都是单个的指令，还有可能出现更细粒度的指令（每一步都可能带有其他的一些不透明的指令），所以就不能精准地还原每一步操作。</p>
+<p>但 MIT 流派的牛人发现他并没有在 Unix 系统上找到关于这个问题的相关代码，他就问新泽西流派的人是怎么实现的。</p>
+<p>新泽西流派的人告诉他，没实现，但是我们意识到了这个问题，假设这个程序出错了，我们还是会将它标记为完成了，但是<strong>有时</strong>会返回一个错误码，用来告诉你这个程序出错了，你得注意一下。</p>
+<p>MIT 流派的牛人不喜欢这种解决方法，因为它不正确，明明它已经错了，你还要进行下去，这不行啊。</p>
+<p>新泽西流派的人说，我们觉得这就是正确的，因为我们不想把这个事情搞得很复杂，这个程序在写好之前，你如果发现它错了，那你就多测试几遍，直到它满足你需要的情况不就好了。</p>
+<p>然后 MIT 的牛人说：</p>
+<blockquote>
+<p>The MIT guy then muttered that sometimes it takes a tough man to make a tender chicken.</p>
+</blockquote>
+<blockquote>
+<p>But the New Jersey guy didn’t understand (I’m not sure I do either).</p>
+</blockquote>
+<p>文章作者也不敢说懂了，我同样也不敢说。。大家就意会吧。。</p>
+<p>作者也同时表达了它的看法，为什么 worse-is-better is better，更坏的却是更好的就是最好的呢？</p>
+<p>他把 C 语言和 Unix 比作成为了病毒，首先它们很简单，代表着易于编写，同时也便于移植。</p>
+<p>而放弃了正确性代表着可以快速的实现我想要的一个功能，说的俗一点，也就是业界所说的，<strong>先跑起来，后面再优化（如果你是一个真正的程序员，我相信你能深刻地体会到这句话有多么可怕）</strong>。</p>
+<p>这些加起来，结果就是你所做的东西就能很快地传播，就像病毒一样。病毒最开始是基本正确的，后面用的人多了，就会产生一些错误，但是因为它很简单，你又能够很快地修复，往往
+你只需要保证它 90% 是正确的就够了。</p>
+<p>当我看到这里的时候，我脑子里出现了一个世界上最没有用的废话之一，<strong>存在即合理</strong>，但是我也没法去质疑，因为这确实是事实。</p>
+<p>稍后我再说说正确的东西，说一说为什么它们看起来好多了，却没能流传起来。下面这个链接是个知乎回答，有编程经验的且感兴趣的人，可以看一看，当初我也从这里收获很多，也是在说为什么 Worse is Better，非常感谢回答的作者。</p>
+<blockquote>
+<p>为啥 Erlang 没有像 Go、Scala 语言那样崛起？ - 布丁的回答 - 知乎</p>
+</blockquote>
+<p><a href="https://www.zhihu.com/question/38032439/answer/84176970">https://www.zhihu.com/question/38032439/answer/84176970</a></p></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/%E6%84%9F%E6%82%9F" title="感悟">感悟</a>
+        
+          <a class="ui label" href="/tags/%E6%8A%80%E6%9C%AF" title="技术">技术</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; background: #1b1c1d !important; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i> Save as image
+      </div>
+    </footer>
+
+    
+      <footer class="ui attached segment">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+      </footer>
+    
+
+    
+      <footer class="ui bottom attached stacked segment post-disqus-area" data-html2canvas-ignore="true">
+        <div id="disqus_thread"></div>
+        <script>
+          
+
+
+          var disqus_config = function () {
+            this.page.url = 'https:\/\/g1eny0ung.github.io\/posts\/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7\/';  
+            this.page.identifier = '\/posts\/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7\/'; 
+          };
+
+          (function() { 
+            var d = document, s = d.createElement('script');
+            s.src = 'https://' + 'g1eny0ung' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </footer>
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
     <article class="dream-header">
   <section class="ui top attached center aligned segment">
     <div class="ui small circular image">
@@ -375,119 +479,7 @@
 </article>
 
   </div>
-
-  
-  
-    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-      
-<article class="ui raised card dream-card" style="box-shadow: none;">
-
-  <div class="image">
-    
-      <img src="/img/%e7%bc%96%e7%a8%8b%e7%9a%84%e6%ad%a3%e7%a1%ae%e6%80%a7.jpg" alt="编程的正确性" />
-    
-  </div>
-
-  <div class="content">
-    <h2 class="ui medium header">
-      <a href="https://g1eny0ung.github.io/posts/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7/">编程的正确性</a>
-    </h2>
-    <div class="meta">
-      <p class="date">Thursday, May 7, 2020</p>
-      <p class="author">@ g1eny0ung</p>
-    </div>
-    <div class="description">
-      The Worse is Better.
-
-    </div>
-  </div>
-
-  <div class="extra content">
-    <a>
-      <i class="clock icon"></i>
-      5 分钟阅读
-    </a>
-  </div>
-</article>
-
-    </div>
-  
-    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-      
-<article class="ui raised card dream-card" style="box-shadow: none;">
-
-  <div class="image">
-    
-      <img src="/img/Write-Before-Petal3.jpg" alt="写在 Petal3 之前" />
-    
-  </div>
-
-  <div class="content">
-    <h2 class="ui medium header">
-      <a href="https://g1eny0ung.github.io/posts/%E5%86%99%E5%9C%A8-petal3-%E4%B9%8B%E5%89%8D/">写在 Petal3 之前</a>
-    </h2>
-    <div class="meta">
-      <p class="date">Saturday, Dec 21, 2019</p>
-      <p class="author">@ g1eny0ung</p>
-    </div>
-    <div class="description">
-      写一些我想说的和未来对 Petal3 的计划。
-
-    </div>
-  </div>
-
-  <div class="extra content">
-    <a>
-      <i class="clock icon"></i>
-      4 分钟阅读
-    </a>
-  </div>
-</article>
-
-    </div>
-  
-    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-      
-<article class="ui raised card dream-card" style="box-shadow: none;">
-
-  <div class="image">
-    
-      <img src="/img/Understanding-Computation-%e9%98%85%e8%af%bb%e6%9c%89%e6%84%9f.jpg" alt="Understanding Computation 阅读有感" />
-    
-  </div>
-
-  <div class="content">
-    <h2 class="ui medium header">
-      <a href="https://g1eny0ung.github.io/posts/understanding-computation-%E9%98%85%E8%AF%BB%E6%9C%89%E6%84%9F/">Understanding Computation 阅读有感</a>
-    </h2>
-    <div class="meta">
-      <p class="date">Tuesday, Jan 9, 2018</p>
-      <p class="author">@ g1eny0ung</p>
-    </div>
-    <div class="description">
-      Understanding Computation: From Simple Machines to Impossible Programs.
-
-    </div>
-  </div>
-
-  <div class="extra content">
-    <a>
-      <i class="clock icon"></i>
-      2 分钟阅读
-    </a>
-  </div>
-</article>
-
-    </div>
-  
 </div>
-
-<div class="ui secondary menu dream-menu dream-paginator">
-  
-
-  
-</div>
-
 
         </section>
         <section class="back">
@@ -666,30 +658,6 @@
 
   
   
-    <section class="sixteen wide mobile eight wide tablet eight wide computer column dream-column">
-      <footer class="ui segment">
-        <div id="disqus_thread"></div>
-        <script>
-          
-
-
-          var disqus_config = function () {
-            this.page.url = 'https:\/\/g1eny0ung.github.io\/tags\/%E6%8A%80%E6%9C%AF\/about';  
-            this.page.identifier = '/about'; 
-          };
-
-          (function() { 
-            var d = document, s = d.createElement('script');
-            s.src = 'https://' + 'g1eny0ung' + '.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-          })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      </footer>
-    </section>
-  
-
 </div>
 
         </section>
