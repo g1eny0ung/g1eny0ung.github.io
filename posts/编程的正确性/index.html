@@ -8,7 +8,7 @@
 <meta name=author content="g1eny0ung">
 <meta name=description content="The Worse is Better.
 ">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.90.1">
 <link rel=canonical href=https://g1eny0ung.site/posts/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7/>
 <meta property="og:title" content="编程的正确性">
 <meta property="og:description" content="The Worse is Better.">
@@ -112,7 +112,7 @@ g1eny0ung
 <p><strong>C 语言就代表着新泽西流派，Lisp 就代表着 MIT 流派。</strong></p>
 <p>C 语言有这么烂吗？它确实就是那么烂，烂的原因如同上文所说。</p>
 <p>但是为什么这么烂的东西，能广泛的被大家使用呢，广泛到这个世界上，已经完全离不开这个东西。</p>
-<p>下面是我对 <a href=http://dreamsongs.com/RiseOfWorseIsBetter.html>http://dreamsongs.com/RiseOfWorseIsBetter.html</a> 原文的总结，作者以他的理解告诉了我为什么，感兴趣的可以看原文，不感兴趣的就听我 bb 就好了：</p>
+<p>下面是我对 <a href=http://dreamsongs.com/RiseOfWorseIsBetter.html>http://dreamsongs.com/RiseOfWorseIsBetter.html</a> 原文的总结，作者以他的理解告诉了我为什么，感兴趣的可以看原文，不感兴趣的就听我说就好了：</p>
 <p>原文讲了一个小故事，大致是这个样子的，MIT 流派的一个牛人，对一个问题产生了疑问，他想看看新泽西流派的人是如何在 Unix 系统上解决的，问题是这样的：</p>
 <p>一个程序从运行开始到成功结束，往往需要有很多步的操作，但如果在这个过程中的其中一步发生了错误的话，那么就需要保存用户在这个程序执行前的状态，来保证正确性和一致性。
 但是往往每一步的调用都是单个的指令，还有可能出现更细粒度的指令（每一步都可能带有其他的一些不透明的指令），所以就不能精准地还原每一步操作。</p>
@@ -125,7 +125,7 @@ g1eny0ung
 <p>The MIT guy then muttered that sometimes it takes a tough man to make a tender chicken.</p>
 <p>But the New Jersey guy didn’t understand (I’m not sure I do either).</p>
 </blockquote>
-<p>文章作者也不敢说懂了，我同样也不敢说。。大家就意会吧。。</p>
+<p>文章作者也不敢说懂了，我同样也不敢说。大家就意会吧。</p>
 <p>作者也同时表达了它的看法，为什么 worse-is-better is better，更坏的却是更好的就是最好的呢？</p>
 <p>他把 C 语言和 Unix 比作成为了病毒，首先它们很简单，代表着易于编写，同时也便于移植。</p>
 <p>而放弃了正确性代表着可以快速的实现我想要的一个功能，说的俗一点，也就是业界所说的，<strong>先跑起来，后面再优化（如果你是一个真正的程序员，我相信你能深刻地体会到这句话有多么可怕）</strong>。</p>
@@ -138,7 +138,7 @@ g1eny0ung
 <p><a href=https://www.zhihu.com/question/38032439/answer/84176970>https://www.zhihu.com/question/38032439/answer/84176970</a></p>
 <h2 id=如何保持正确和为什么保持不了正确>如何保持正确和为什么保持不了正确</h2>
 <p>再说之前，我想到了之前看过的一篇博客，王垠写的，<a href=https://www.yinwang.org/blog-cn/2014/02/18/dijkstra-interview>一个对 Dijkstra 的采访视频</a>。</p>
-<p>我觉得在这个视频里面大师所说的东西能够很好的帮助解释这个子标题：<strong>如何保持正确和为什么保持不了正确</strong>。</p>
+<p>我觉得在这个视频里面所说的东西能够很好的帮助解释这个子标题：<strong>如何保持正确和为什么保持不了正确</strong>。</p>
 <p>以下是我对博客其中一些部分的摘录，加上我自己的解读：</p>
 <blockquote>
 <p>软件的版本号 2.6, 2.7, … 都是胡扯。本来第1版就应该是最终的产品，可是软件公司总是先弄出来一个不完整的版本，骗大家买了，以后再慢慢“升级”。每次升级都要用户再次付钱。</p>
@@ -151,7 +151,7 @@ g1eny0ung
 <p>这段话是多么的切合两个流派，紧接着讽刺了一番。我自己是偏向正确性的，所以举一个实际上的例子。</p>
 <p>当我曾经去写 golang 的时候，我会奇怪这玩意连个泛型都没有，这怎么用啊，而且写起来也太丑了，满屏幕的 <code>if err != nil</code>，我写了半天，也没办法在这个语言里找到<strong>优雅</strong>的写法。</p>
 <p>然后我就放弃了。但是后来你可以看到，golang 是在慢慢地进化的，从泛型无所谓的嘴硬到引入这个特性，从稀烂的包管理到正确的包管理做法，它符合了简单性加不断修补。</p>
-<p>因为 golang 的编译和部署都可以做到极致的方便（跟老前辈同源，都来自贝尔实验室），所以他就是能够被广泛流传的，就是 worse-is-better is better 定律。</p>
+<p>因为 golang 的编译和部署都可以做到极致的方便，所以他就是能够被广泛流传的，就是 worse-is-better is better 定律。</p>
 <blockquote>
 <p>软件测试可以确定软件里有 bug，但却不可能用来确定它们没有 bug。</p>
 </blockquote>
@@ -171,7 +171,7 @@ g1eny0ung
 <blockquote>
 <p>compose : (&lsquo;a -> &lsquo;b) -> (&lsquo;c -> &lsquo;a) -> &lsquo;c -> &lsquo;b</p>
 </blockquote>
-<p>接受过义务教育的人应该都可以看懂，<code>('a -> 'b)</code> 代表 f，<code>('c -> 'a)</code> 代表 g，<code>'c</code> 代表 x。<code>f (g x)</code> 使用 g 将 x 首先变为 &lsquo;a，然后使用 f 将 &lsquo;a 变为 &lsquo;b，结果就是 &lsquo;b。</p>
+<p><code>('a -> 'b)</code> 代表 f，<code>('c -> 'a)</code> 代表 g，<code>'c</code> 代表 x。<code>f (g x)</code> 使用 g 将 x 首先变为 &lsquo;a，然后使用 f 将 &lsquo;a 变为 &lsquo;b，结果就是 &lsquo;b。</p>
 <p>这在编程的领域叫做类型推导，结合这篇博客，类型推导带来的就是正确性，只要满足类型推导，那么程序一定就是正确的。</p>
 <p>但是优雅很难，难在哪呢？</p>
 <blockquote>
@@ -319,7 +319,7 @@ Ruby Lang
 <blockquote>
 <p>微信赞赏码</p>
 </blockquote>
-<p><img class="ui image" src=/me/微信赞赏码.jpeg alt=wechat></p>
+<img class="ui image" src=/me/微信赞赏码.jpeg alt=wechat>
 <blockquote>
 <p>最好附加一下信息或者留言，方便我可以<a href=/posts/buy-me-a-coffee>将捐助记录 📝 下来</a>，十分感谢 🙏。</p>
 <p>It is better to attach some information or leave a message so that I can <a href=/posts/buy-me-a-coffee>record the donation 📝</a>, thank you very much 🙏.</p>

@@ -8,7 +8,7 @@
 <meta name=author content="g1eny0ung">
 <meta name=description content="Bring a smooth experience to the development of Chrome Extension.
 ">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.90.1">
 <link rel=canonical href=https://g1eny0ung.site/posts/build-a-chrome-extension-with-figwheel-main/>
 <meta property="og:title" content="Build a Chrome Extension with Figwheel Main">
 <meta property="og:description" content="Bring a smooth experience to the development of Chrome Extension.">
@@ -167,7 +167,7 @@ Because chrome ignores this keyword especially, even the errors tell you can �
 <p>By developing the chrome extension, you need to use <code>chrome</code> API to do somethings, like save and sync the user storage, etc. We need to tell the closure compiler <code>chrome</code> is the <a href=https://developers.google.com/closure/compiler/docs/externs-and-exports>externs</a> we used.</p>
 <p>There are two files we need to download: <a href=https://github.com/google/closure-compiler/blob/master/contrib/externs/chrome.js>https://github.com/google/closure-compiler/blob/master/contrib/externs/chrome.js</a> and <a href=https://github.com/google/closure-compiler/blob/master/contrib/externs/chrome_extensions.js>https://github.com/google/closure-compiler/blob/master/contrib/externs/chrome_extensions.js</a>.</p>
 <p>Put them into <code>externs</code> folder and edit <code>dev.cljs.edn</code> like below content:</p>
-<pre><code>{:main hello-world.core
+<pre tabindex=0><code>{:main hello-world.core
  :externs [&quot;externs/chrome.js&quot; &quot;externs/chrome_extensions.js&quot;]}
 </code></pre><p>Then run:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>lein fig:min
@@ -311,7 +311,7 @@ Ruby Lang
 <blockquote>
 <p>微信赞赏码</p>
 </blockquote>
-<p><img class="ui image" src=/me/微信赞赏码.jpeg alt=wechat></p>
+<img class="ui image" src=/me/微信赞赏码.jpeg alt=wechat>
 <blockquote>
 <p>最好附加一下信息或者留言，方便我可以<a href=/posts/buy-me-a-coffee>将捐助记录 📝 下来</a>，十分感谢 🙏。</p>
 <p>It is better to attach some information or leave a message so that I can <a href=/posts/buy-me-a-coffee>record the donation 📝</a>, thank you very much 🙏.</p>
