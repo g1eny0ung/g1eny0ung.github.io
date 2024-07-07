@@ -1,9 +1,9 @@
-html {
+:root {
   background-color: #fff !important;
   color: #333c4d !important;
 }
 
-html.dark {
+:root.dark {
   background-color: #171213 !important;
   color: #cbc9ca !important;
 }
