@@ -9,7 +9,9 @@ collections:
     label: 'Post'
     folder: 'content/posts'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
     fields:
       - label: 'Draft'
         name: 'draft'
@@ -24,15 +26,19 @@ collections:
       - label: 'Last Modified Date'
         name: 'lastmod'
         widget: 'datetime'
+        required: false
       - label: 'Author'
         name: 'author'
         widget: 'string'
+        required: false
       - label: 'Author Link'
         name: 'authorlink'
         widget: 'string'
+        required: false
       - label: 'Cover'
         name: 'cover'
         widget: 'image'
+        required: false
       - label: 'Categories'
         name: 'categories'
         widget: 'list'
